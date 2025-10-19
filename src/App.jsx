@@ -1,17 +1,14 @@
-import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/ui/Hero";
-import Articles from "./components/ui/Articles";
-import "./app.css";
+import React from 'react'
+import BookStore from './projects/BookStore'
+
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Articles />
+      <BookStore/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
