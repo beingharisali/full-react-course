@@ -20,3 +20,23 @@ function Card(props) {
     <h1>{props.description}</h1>
   </div>
 }
+
+
+
+import React, { Component } from 'react'
+
+export default class PropsComponent extends Component {
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+}
+
+
+
+// Mounting of a component -> birth of a component -> component will mount, component did mount
+// re-rendering of a component -> updates of a component
+// un-mounting of a component -> destruction of a component

@@ -1,12 +1,12 @@
-import React from 'react'
-import BookStore from './projects/BookStore'
+import Counter from './projects/counter/Counter'
+import UseStateComponent from './topics/hooks/useState/UseStateComponent'
 
 
 
 function App() {
   return (
-    <div>
-      <BookStore/>
+    <div style={{textAlign:'center'}}>
+      <Counter/>
     </div>
   )
 }
