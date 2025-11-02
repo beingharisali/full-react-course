@@ -1,0 +1,18 @@
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.news .card{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(207, 207, 207);
+}
+.card img{
+    width: 100%;
+}
+.news-footer{
+    display: flex;
+    justify-content: space-between;
+}

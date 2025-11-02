@@ -1,14 +1,14 @@
-import Counter from './projects/counter/Counter'
-import UseStateComponent from './topics/hooks/useState/UseStateComponent'
-
-
+import Counter from "./projects/counter/Counter";
+import News from "./projects/news-project/News";
+import UseEffectComponent from "./topics/hooks/useEffect/UseEffectComponent";
+import UseStateComponent from "./topics/hooks/useState/UseStateComponent";
 
 function App() {
   return (
-    <div style={{textAlign:'center'}}>
-      <Counter/>
+    <div>
+      <News />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
